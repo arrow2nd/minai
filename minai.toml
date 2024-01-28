@@ -74,7 +74,7 @@
   TabLineFill = "link:TabLine"
   TabLineSel = "fg bg"
   Title = "fg"
-  Visual = "- frill"
+  Visual = "bg foundation"
   VisualNOS = "link:Visual"
   WarningMsg = "red"
   WildMenu = "- - r"
