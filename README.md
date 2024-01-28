@@ -7,8 +7,10 @@
 ## build
 
 - [colorgen-nvim](https://github.com/LunarVim/colorgen-nvim?tab=readme-ov-file)
-を使用しています
+  をインストールしてください
+
+以下のコマンドでカラースキームを生成できます。
 
 ```
-colorgen-nvim minai.toml
+make gen
 ```
