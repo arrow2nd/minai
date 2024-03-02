@@ -226,7 +226,7 @@
   NeogitPopupOptionKey = "cyan"
   NeogitPopupConfigKey = "cyan"
   NeogitPopupActionKey = "cyan"
-  NeogitBranch = "magenta"
+  NeogitBranch = "cyan"
   NeogitUntrackedfiles = "cyan"
   NeogitUnstagedchanges = "cyan"
   NeogitUnmergedchanges = "cyan"
