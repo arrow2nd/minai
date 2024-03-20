@@ -215,6 +215,13 @@ theme.set_highlights = function()
   hl(0, "NeogitStagedchanges", { fg = c.cyan, bg = 'NONE' })
   hl(0, "NeogitStashes", { fg = c.cyan, bg = 'NONE' })
   hl(0, "NeogitRebasing", { fg = c.cyan, bg = 'NONE' })
+
+  -- pounce
+  hl(0, "PounceMatch", { fg = c.fg, bg = 'NONE' })
+  hl(0, "PounceGap", { fg = c.fg, bg = 'NONE' })
+  hl(0, "PounceAccept", { fg = c.orange, bg = 'NONE', bold=true, underline=true, })
+  hl(0, "PounceAcceptBest", { fg = c.magenta, bg = 'NONE', bold=true, underline=true, })
+  hl(0, "PounceUnmatched", { fg = c.hair, bg = 'NONE' })
 end
 
 return theme

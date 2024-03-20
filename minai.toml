@@ -235,3 +235,10 @@
   NeogitStagedchanges = "cyan"
   NeogitStashes = "cyan"
   NeogitRebasing = "cyan"
+
+[pounce]
+  PounceMatch = "fg"
+  PounceGap = "fg"
+  PounceAccept = "orange - bu"
+  PounceAcceptBest = "magenta - bu"
+  PounceUnmatched = "hair"
