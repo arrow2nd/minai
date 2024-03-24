@@ -187,6 +187,7 @@ theme.set_highlights = function()
   hl(0, "GitSignsDelete", { fg = c.magenta, bg = 'NONE', bold=true, })
 
   -- lazy
+  hl(0, "LazyButtonActive", { fg = 'NONE', bg = c.arm_band, bold=true, })
   hl(0, "LazyProgressTodo", { fg = c.bg, bg = 'NONE' })
 
   -- neogit

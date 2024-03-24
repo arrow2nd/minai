@@ -207,6 +207,7 @@
   GitSignsDelete = "magenta - b"
 
 [lazy]
+  LazyButtonActive = "- arm_band b"
   LazyProgressTodo = "bg"
 
 [neogit]
