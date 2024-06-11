@@ -200,6 +200,13 @@
   MiniStatuslineFilename = "gray frill_shadow"
   MiniStatuslineFileinfo = "link:MiniStatuslineDevinfo"
   MiniStatuslineInactive = "link:StatusLineNC"
+  MiniDiffSignAdd = "green - b"
+  MiniDiffSignChange  = "yellow - b"
+  MiniDiffSignDelete  = "magenta - b"
+  MiniDiffOverAdd = "bg green"
+  MiniDiffOverChange = "bg yellow"
+  MiniDiffOverContext = "-"
+  MiniDiffOverDelete  = "bg magenta"
 
 [gitsign]
   GitSignsAdd = "green - b"

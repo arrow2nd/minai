@@ -180,6 +180,13 @@ theme.set_highlights = function()
   hl(0, "MiniStatuslineFilename", { fg = c.gray, bg = c.frill_shadow })
   hl(0, "MiniStatuslineFileinfo", { link = 'MiniStatuslineDevinfo' })
   hl(0, "MiniStatuslineInactive", { link = 'StatusLineNC' })
+  hl(0, "MiniDiffSignAdd", { fg = c.green, bg = 'NONE', bold=true, })
+  hl(0, "MiniDiffSignChange", { fg = c.yellow, bg = 'NONE', bold=true, })
+  hl(0, "MiniDiffSignDelete", { fg = c.magenta, bg = 'NONE', bold=true, })
+  hl(0, "MiniDiffOverAdd", { fg = c.bg, bg = c.green })
+  hl(0, "MiniDiffOverChange", { fg = c.bg, bg = c.yellow })
+  hl(0, "MiniDiffOverContext", { fg = 'NONE', bg = 'NONE' })
+  hl(0, "MiniDiffOverDelete", { fg = c.bg, bg = c.magenta })
 
   -- gitsign
   hl(0, "GitSignsAdd", { fg = c.green, bg = 'NONE', bold=true, })
