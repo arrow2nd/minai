@@ -48,7 +48,7 @@
   LineNr = "gray bg"
   LineNrAbove = "link:LineNr"
   LineNrBelow = "link:LineNr"
-  MatchParen = "fg bg"
+  MatchParen = "bg cyan"
   ModeMsg = "fg"
   MoreMsg = "fg"
   NonText = "hair"
