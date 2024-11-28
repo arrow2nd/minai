@@ -230,6 +230,10 @@ theme.set_highlights = function()
   hl(0, "PounceAccept", { fg = c.orange, bg = 'NONE', bold=true, underline=true, })
   hl(0, "PounceAcceptBest", { fg = c.magenta, bg = 'NONE', bold=true, underline=true, })
   hl(0, "PounceUnmatched", { fg = c.hair, bg = 'NONE' })
+
+  -- ddu-converter-git_status
+  hl(0, "diffAdded", { link = 'DiffAdd' })
+  hl(0, "diffRemoved", { link = 'DiffDelete' })
 end
 
 return theme

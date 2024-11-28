@@ -250,3 +250,7 @@
   PounceAccept = "orange - bu"
   PounceAcceptBest = "magenta - bu"
   PounceUnmatched = "hair"
+
+[ddu-converter-git_status]
+  diffAdded = "link:DiffAdd"
+  diffRemoved = "link:DiffDelete"
