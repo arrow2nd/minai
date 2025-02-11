@@ -234,6 +234,22 @@ theme.set_highlights = function()
   -- ddu-converter-git_status
   hl(0, "diffAdded", { link = 'DiffAdd' })
   hl(0, "diffRemoved", { link = 'DiffDelete' })
+
+  -- render-markdown
+  hl(0, "RenderMarkdownH1", { link = 'Title' })
+  hl(0, "RenderMarkdownH2", { link = 'Title' })
+  hl(0, "RenderMarkdownH3", { link = 'Title' })
+  hl(0, "RenderMarkdownH4", { link = 'Title' })
+  hl(0, "RenderMarkdownH5", { link = 'Title' })
+  hl(0, "RenderMarkdownH6", { link = 'Title' })
+  hl(0, "RenderMarkdownH1Bg", { fg = c.bg, bg = 'NONE' })
+  hl(0, "RenderMarkdownH2Bg", { fg = c.bg, bg = 'NONE' })
+  hl(0, "RenderMarkdownH3Bg", { fg = c.bg, bg = 'NONE' })
+  hl(0, "RenderMarkdownH4Bg", { fg = c.bg, bg = 'NONE' })
+  hl(0, "RenderMarkdownH5Bg", { fg = c.bg, bg = 'NONE' })
+  hl(0, "RenderMarkdownH6Bg", { fg = c.bg, bg = 'NONE' })
+  hl(0, "RenderMarkdownCodeBlock", { fg = c.bg_light, bg = 'NONE' })
+  hl(0, "RenderMarkdownCodeInline", { fg = c.bg_light, bg = 'NONE' })
 end
 
 return theme

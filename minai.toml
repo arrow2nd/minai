@@ -254,3 +254,20 @@
 [ddu-converter-git_status]
   diffAdded = "link:DiffAdd"
   diffRemoved = "link:DiffDelete"
+
+[render-markdown]
+  RenderMarkdownH1 = "link:Title"
+  RenderMarkdownH2 = "link:Title"
+  RenderMarkdownH3 = "link:Title"
+  RenderMarkdownH4 = "link:Title"
+  RenderMarkdownH5 = "link:Title"
+  RenderMarkdownH6 = "link:Title"
+  RenderMarkdownH1Bg = "bg"
+  RenderMarkdownH2Bg = "bg"
+  RenderMarkdownH3Bg = "bg"
+  RenderMarkdownH4Bg = "bg"
+  RenderMarkdownH5Bg = "bg"
+  RenderMarkdownH6Bg = "bg"
+  RenderMarkdownCodeBlock = "bg_light"
+  RenderMarkdownCodeInline = "bg_light"
+
