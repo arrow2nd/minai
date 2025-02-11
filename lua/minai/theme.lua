@@ -236,20 +236,14 @@ theme.set_highlights = function()
   hl(0, "diffRemoved", { link = 'DiffDelete' })
 
   -- render-markdown
-  hl(0, "RenderMarkdownH1", { link = 'Title' })
-  hl(0, "RenderMarkdownH2", { link = 'Title' })
-  hl(0, "RenderMarkdownH3", { link = 'Title' })
-  hl(0, "RenderMarkdownH4", { link = 'Title' })
-  hl(0, "RenderMarkdownH5", { link = 'Title' })
-  hl(0, "RenderMarkdownH6", { link = 'Title' })
-  hl(0, "RenderMarkdownH1Bg", { fg = c.bg, bg = 'NONE' })
-  hl(0, "RenderMarkdownH2Bg", { fg = c.bg, bg = 'NONE' })
-  hl(0, "RenderMarkdownH3Bg", { fg = c.bg, bg = 'NONE' })
-  hl(0, "RenderMarkdownH4Bg", { fg = c.bg, bg = 'NONE' })
-  hl(0, "RenderMarkdownH5Bg", { fg = c.bg, bg = 'NONE' })
-  hl(0, "RenderMarkdownH6Bg", { fg = c.bg, bg = 'NONE' })
-  hl(0, "RenderMarkdownCodeBlock", { fg = c.bg_light, bg = 'NONE' })
-  hl(0, "RenderMarkdownCodeInline", { fg = c.bg_light, bg = 'NONE' })
+  hl(0, "RenderMarkdownH1Bg", { fg = c.fg, bg = 'NONE', bold=true, })
+  hl(0, "RenderMarkdownH2Bg", { fg = c.fg, bg = 'NONE', bold=true, })
+  hl(0, "RenderMarkdownH3Bg", { fg = c.fg, bg = 'NONE', bold=true, })
+  hl(0, "RenderMarkdownH4Bg", { fg = c.fg, bg = 'NONE' })
+  hl(0, "RenderMarkdownH5Bg", { fg = c.fg, bg = 'NONE' })
+  hl(0, "RenderMarkdownH6Bg", { fg = c.fg, bg = 'NONE' })
+  hl(0, "RenderMarkdownCode", { fg = 'NONE', bg = c.bg_dark })
+  hl(0, "RenderMarkdownCodeInline", { fg = 'NONE', bg = c.bg_dark })
 end
 
 return theme

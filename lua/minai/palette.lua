@@ -1,6 +1,7 @@
 local colors = {
   bg = "#232934",
   bg_light = "#384153",
+  bg_dark = "#1B1F27",
   fg = "#E8E2D6",
   arm_band = "#92214A",
   frill = "#262626",

@@ -6,6 +6,7 @@
 [palette]
   bg = "#232934"
   bg_light = "#384153"
+  bg_dark = "#1B1F27"
   fg = "#E8E2D6"
 
   arm_band = "#92214A"
@@ -256,18 +257,11 @@
   diffRemoved = "link:DiffDelete"
 
 [render-markdown]
-  RenderMarkdownH1 = "link:Title"
-  RenderMarkdownH2 = "link:Title"
-  RenderMarkdownH3 = "link:Title"
-  RenderMarkdownH4 = "link:Title"
-  RenderMarkdownH5 = "link:Title"
-  RenderMarkdownH6 = "link:Title"
-  RenderMarkdownH1Bg = "bg"
-  RenderMarkdownH2Bg = "bg"
-  RenderMarkdownH3Bg = "bg"
-  RenderMarkdownH4Bg = "bg"
-  RenderMarkdownH5Bg = "bg"
-  RenderMarkdownH6Bg = "bg"
-  RenderMarkdownCodeBlock = "bg_light"
-  RenderMarkdownCodeInline = "bg_light"
-
+  RenderMarkdownH1Bg = "fg - b"
+  RenderMarkdownH2Bg = "fg - b"
+  RenderMarkdownH3Bg = "fg - b"
+  RenderMarkdownH4Bg = "fg"
+  RenderMarkdownH5Bg = "fg"
+  RenderMarkdownH6Bg = "fg"
+  RenderMarkdownCode = "- bg_dark"
+  RenderMarkdownCodeInline = "- bg_dark"
