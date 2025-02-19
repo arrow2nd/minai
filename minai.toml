@@ -265,8 +265,3 @@
   RenderMarkdownH6Bg = "fg"
   RenderMarkdownCode = "- bg_dark"
   RenderMarkdownCodeInline = "- bg_dark"
-
-[vim-gin]
-  GinColorF1 = "red"
-  GinColorF2 = "green"
-  GinColorF6 = "blue"

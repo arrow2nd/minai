@@ -244,11 +244,6 @@ theme.set_highlights = function()
   hl(0, "RenderMarkdownH6Bg", { fg = c.fg, bg = 'NONE' })
   hl(0, "RenderMarkdownCode", { fg = 'NONE', bg = c.bg_dark })
   hl(0, "RenderMarkdownCodeInline", { fg = 'NONE', bg = c.bg_dark })
-
-  -- vim-gin
-  hl(0, "GinColorF1", { fg = c.red, bg = 'NONE' })
-  hl(0, "GinColorF2", { fg = c.green, bg = 'NONE' })
-  hl(0, "GinColorF6", { fg = c.blue, bg = 'NONE' })
 end
 
 return theme
