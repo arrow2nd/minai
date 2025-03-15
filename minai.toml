@@ -51,6 +51,7 @@
   LineNr = "bg_light bg"
   LineNrAbove = "link:LineNr"
   LineNrBelow = "link:LineNr"
+  QfLineNr = "fg"
   MatchParen = "bg cyan"
   ModeMsg = "fg"
   MoreMsg = "fg"
