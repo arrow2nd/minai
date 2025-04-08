@@ -268,3 +268,7 @@
   RenderMarkdownH6Bg = "fg"
   RenderMarkdownCode = "- bg_dark"
   RenderMarkdownCodeInline = "- bg_dark"
+
+[avante]
+  AvanteSidebarWinSeparator = "link:WinSeparator"
+  AvanteSidebarWinHorizontalSeparator = "bg bg"

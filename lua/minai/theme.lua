@@ -247,6 +247,10 @@ theme.set_highlights = function()
   hl(0, "RenderMarkdownH6Bg", { fg = c.fg, bg = 'NONE' })
   hl(0, "RenderMarkdownCode", { fg = 'NONE', bg = c.bg_dark })
   hl(0, "RenderMarkdownCodeInline", { fg = 'NONE', bg = c.bg_dark })
+
+  -- avante
+  hl(0, "AvanteSidebarWinSeparator", { link = 'WinSeparator' })
+  hl(0, "AvanteSidebarWinHorizontalSeparator", { fg = c.bg, bg = c.bg })
 end
 
 return theme
