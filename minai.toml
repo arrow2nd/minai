@@ -272,3 +272,6 @@
 [avante]
   AvanteSidebarWinSeparator = "link:WinSeparator"
   AvanteSidebarWinHorizontalSeparator = "bg bg"
+
+[telescope]
+  TelescopeSelection = "- bg_light"
