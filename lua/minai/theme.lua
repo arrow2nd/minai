@@ -251,6 +251,9 @@ theme.set_highlights = function()
   -- avante
   hl(0, "AvanteSidebarWinSeparator", { link = 'WinSeparator' })
   hl(0, "AvanteSidebarWinHorizontalSeparator", { fg = c.bg, bg = c.bg })
+
+  -- telescope
+  hl(0, "TelescopeSelection", { fg = 'NONE', bg = c.bg_light })
 end
 
 return theme
