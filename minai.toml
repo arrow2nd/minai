@@ -275,3 +275,12 @@
 
 [telescope]
   TelescopeSelection = "- bg_light"
+
+[llama-vim]
+  llama_hl_fim_hint = "hair"
+  llama_hl_fim_info = "hair - i"
+  llama_hl_inst_src = "- bg_light"
+  llama_hl_inst_virt_proc = "yellow - i"
+  llama_hl_inst_virt_gen = "cyan - i"
+  llama_hl_inst_virt_ready = "green - i"
+  llama_hl_inst_info = "link:Comment"

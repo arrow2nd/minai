@@ -254,6 +254,15 @@ theme.set_highlights = function()
 
   -- telescope
   hl(0, "TelescopeSelection", { fg = 'NONE', bg = c.bg_light })
+
+  -- llama-vim
+  hl(0, "llama_hl_fim_hint", { fg = c.hair, bg = 'NONE' })
+  hl(0, "llama_hl_fim_info", { fg = c.hair, bg = 'NONE', italic=true, })
+  hl(0, "llama_hl_inst_src", { fg = 'NONE', bg = c.bg_light })
+  hl(0, "llama_hl_inst_virt_proc", { fg = c.yellow, bg = 'NONE', italic=true, })
+  hl(0, "llama_hl_inst_virt_gen", { fg = c.cyan, bg = 'NONE', italic=true, })
+  hl(0, "llama_hl_inst_virt_ready", { fg = c.green, bg = 'NONE', italic=true, })
+  hl(0, "llama_hl_inst_info", { link = 'Comment' })
 end
 
 return theme
